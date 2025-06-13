@@ -1,0 +1,21 @@
+spring.application.name=backend
+
+
+# Github OAuth2 Configuration
+spring.security.oauth2.client.registration.github.client-id=
+spring.security.oauth2.client.registration.github.client-secret=
+spring.security.oauth2.client.registration.github.scope=read:user,user:email
+
+# Google Oauth2 Configuration
+spring.security.oauth2.client.registration.google.client-id=
+spring.security.oauth2.client.registration.google.client-secret=
+
+# JWT encoded authentication and refresh keys
+JWTAUTHSECRET=
+JWTREFRESHSECRET= 
+
+# Database (mysql used for this project)
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=
